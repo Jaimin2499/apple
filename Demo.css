@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+.mainbox {
+    margin: auto;
+    position: absolute;
+    transform: translate(120%, 50%);
+    width: 30%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px inset black;
+}
+
+.mainbox h1 {
+    position: absolute;
+    transform: translate(200%, 150%);
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.mainbox img {
+    position: absolute;
+    transform: translate(140px, 110px);
+    height: 150px;
+    width: 150px;
+}
+
+.mainbox h2 {
+    position: absolute;
+    transform: translate(120px, 280px);
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.minibox {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    transform: translate(170px, 285px);
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px inset black;
+    transition: 0.3s;
+}
+
+.minibox h4 {
+    color: royalblue;
+    position: absolute;
+    transform: translate(70%, 10%);
+}
+
+.minibox:hover {
+    position: absolute;
+    transform: translate(170px, 280px);
+    transition: 0.3s;
+}
+
+.minibox1 {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    transform: translate(205px, 285px);
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px inset black;
+    transition: 0.3s;
+}
+
+.minibox1 h4 {
+    color: royalblue;
+    position: absolute;
+    transform: translate(70%, 10%);
+}
+
+.minibox1:hover {
+    position: absolute;
+    transform: translate(205px, 280px);
+    transition: 0.3s;
+}
+
+.minibox2 {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    transform: translate(240px, 285px);
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px inset black;
+    transition: 0.3s;
+}
+
+.minibox2 h4 {
+    color: royalblue;
+    position: absolute;
+    transform: translate(70%, 10%);
+}
+
+.minibox2:hover {
+    position: absolute;
+    transform: translate(240px, 280px);
+    transition: 0.3s;
+}
+
+.minibox3 {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    transform: translate(275px, 285px);
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px inset black;
+    transition: 0.3s;
+}
+
+.minibox3 h4 {
+    color: royalblue;
+    position: absolute;
+    transform: translate(70%, 10%);
+}
+
+.minibox3:hover {
+    position: absolute;
+    transform: translate(275px, 280px);
+    transition: 0.3s;
+}
+
+.sub1 {
+    width: 25%;
+    height: 13vh;
+    margin-top: 20px;
+    margin-left: -20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px inset black;
+}
+
+.sub1 img {
+    position: absolute;
+    transform: translate(20%, 15%);
+    height: 70px;
+    width: 70px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.sub1:hover img {
+    margin-top: 13.5px;
+    margin-left: 20px;
+    transform: rotate(-30deg);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.sub2 {
+    width: 25%;
+    height: 13vh;
+    margin-top: 20px;
+    margin-left: -20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px inset black;
+}
+
+.sub2 img {
+    position: absolute;
+    transform: translate(20%, 15%);
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sub2:hover img {
+    margin-top: 13.5px;
+    margin-left: 20px;
+    transform: rotate(-30deg);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.sub3 {
+    width: 25%;
+    height: 13vh;
+    margin-top: 20px;
+    margin-left: -20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px inset black;
+}
+
+.sub3 img {
+    position: absolute;
+    transform: translate(20%, 15%);
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.sub3:hover img {
+    margin-top: 13.5px;
+    margin-left: 20px;
+    transform: rotate(-30deg);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.cart {
+    position: absolute;
+    transform: translate(150px, 340px);
+    width: 35%;
+    height: 45px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 2px 6px inset black;
+}
+
+.cart h4 {
+    position: absolute;
+    transform: translate(40%, 60%);
+    color: rgba(0, 0, 0, 0.479);
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.cart:hover h4 {
+    position: absolute;
+    transform: translate(38%, 60%);
+    color: black;
+    transition: 0.3s;
+    font-size: 16.5px;
+}
+
+@media (max-width:426px) {
+    .container {
+        width: 100%;
+    }
+    .mainbox {
+        position: absolute;
+        transform: translate(15%, 50%);
+        height: 50vh;
+        width: 80%;
+    }
+    .mainbox h1 {
+        position: absolute;
+        transform: translate(140px, 45px);
+    }
+    .mainbox h2 {
+        position: absolute;
+        transform: translate(100px, 280px);
+    }
+    .mainbox img {
+        position: absolute;
+        transform: translate(110px, 110px);
+    }
+    .sub1 img {
+        position: absolute;
+        transform: translate(12%, 15%);
+    }
+    .sub1:hover img {
+        height: 55px;
+        width: 55px;
+        transform: rotate(-30deg);
+    }
+    .sub2 img {
+        position: absolute;
+        transform: translate(12%, 15%);
+    }
+    .sub2:hover img {
+        height: 55px;
+        width: 55px;
+        transform: rotate(-30deg);
+    }
+    .sub3 img {
+        position: absolute;
+        transform: translate(12%, 15%);
+    }
+    .sub3:hover img {
+        height: 55px;
+        width: 55px;
+        transform: rotate(-30deg);
+    }
+    .minibox {
+        position: absolute;
+        transform: translate(150px, 285px);
+        transition: 0.3s;
+    }
+    .minibox:hover {
+        position: absolute;
+        transform: translate(150px, 280px);
+        transition: 0.3s;
+    }
+    .minibox1 {
+        position: absolute;
+        transform: translate(190px, 285px);
+        transition: 0.3s;
+    }
+    .minibox1:hover {
+        position: absolute;
+        transform: translate(190px, 280px);
+        transition: 0.3s;
+    }
+    .minibox2 {
+        position: absolute;
+        transform: translate(230px, 285px);
+        transition: 0.3s;
+    }
+    .minibox2:hover {
+        position: absolute;
+        transform: translate(230px, 280px);
+        transition: 0.3s;
+    }
+    .minibox3 {
+        position: absolute;
+        transform: translate(270px, 285px);
+        transition: 0.3s;
+    }
+    .minibox3:hover {
+        position: absolute;
+        transform: translate(270px, 280px);
+        transition: 0.3s;
+    }
+    .cart {
+        position: absolute;
+        transform: translate(120px, 340px);
+    }
+    .cart h4 {
+        position: absolute;
+        transform: translate(22%, 60%);
+    }
+    .cart:hover h4 {
+        position: absolute;
+        transform: translate(21%, 60%);
+    }
+}
